@@ -2,7 +2,7 @@
 
 import requests
 
-api="a4ef8841202e4d6fcb33370bc9716185"
+api="a4ef8841202e4d6fcb33370bc9716185" # Normalde OpenWeather'dan kendi API'nizi oluşturmanız gerekiyor, şimdilik size kıyağım olsun ;)
 sehir=input("Herhangi bir şehir seçiniz(Sadece Türkiye'nin illeri): ")
 
 def havadurumu(api,sehir):
